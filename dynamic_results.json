@@ -1,0 +1,18 @@
+{
+    ".\\taskManagmentCli\\main.py": {
+        "apply_beartype": {
+            "status": "Applied @beartype decorators successfully"
+        },
+        "type_errors": {
+            "import_error": "Other Import Error: Function task_manager.add_number() parameter a='1' violates type hint <class 'int'>, as str '1' not instance of int."
+        }
+    },
+    ".\\taskManagmentCli\\task_manager.py": {
+        "apply_beartype": {
+            "status": "Applied @beartype decorators successfully"
+        },
+        "type_errors": {
+            "import_error": "Other Import Error: Function task_manager.add_number() parameter a='1' violates type hint <class 'int'>, as str '1' not instance of int."
+        }
+    }
+}
