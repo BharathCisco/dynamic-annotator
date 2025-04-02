@@ -8,26 +8,6 @@ This repository compares three dynamic annotation tools for Python:
 
 ---
 
-# Dynamuc Annotation Tools Comparison
-
-## 📚 Summary of Findings
-- All three tools (**beartype**, ) successfully identified issues related to:
-    - Undefined variables.
-    - Type mismatches in return values.
-    - Attribute errors.
-
----
-
-## 🛠️ Tool Breakdown
-
-### ✔️ BearType
-- Highly customizable using `mypy.ini` to:
-    - Ignore paths.
-    - Modify strictness.
-- Suitable for large-scale projects with gradual typing.
-
-
-
 ## 📚 Test Results while scanning taskManagerCli
 ### ✅ `repo scan` Results
 ```json
